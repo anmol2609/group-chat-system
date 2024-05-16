@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(15, 75, 33);
+}
+.login-container {
+    background: bisque;
+    width: 30%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    min-height: 500px;
+}
+.login-header {
+    background-color: red;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 0 0 30px 30px;
+}
+.login-form-container {
+    width: 80%;
+    margin: auto;
+}
+.input-box {
+    border-radius: 5%;
+    width: 100%;
+    border-radius: 20px;
+    height: 30px;
+}
+.login-btn-container {
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+button {
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    width: 50%;
+    left: 6px;
+}
+.home-container {
+    display: flex;
+    margin: 5% 0 0 10%;
+    background-color: red;
+    width: 80%;
+    height: 600px;
+}
+.groups-container {
+    width: 40%;
+    height: 600px;
+    background: blue;
+}
+
+.searchbox-container {
+    height: 80px;
+    background-color: burlywood;
+}
+.chatbox-container{
+    width: 60%;
+    height: 80px;
+    background-color: burlywood;
+
+}
+.group-pic {
+    margin-left: 20px;
+    margin-top: 6px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+.chatbox-header {
+    margin-top: 20px;
+}
+.searchbox{
+    width: 99%;
+    height: 94%;
+
+}
+.group-info {
+    background: yellow;
+    margin-top: 10px;
+}
